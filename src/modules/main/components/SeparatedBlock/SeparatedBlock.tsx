@@ -88,7 +88,7 @@ const ContainerInscription = styled.div`
   font-family: "Roboto", sans-serif;
   color: #00a197;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
 `;
 
 const SeparatedBlock = () => {

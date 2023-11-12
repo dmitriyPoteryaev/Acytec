@@ -5,6 +5,9 @@ import Header from "@shared/components/Header";
 import styled from "styled-components";
 
 import AboutModelAndSpecs from "./components/AboutModelAndSpecs";
+import BenefitsBlock from "./components/BenefitsBlock";
+import BlockAbout3D from "./components/BlockAbout3D";
+import RoundDesign from "./components/RoundDesign";
 import SeparatedBlock from "./components/SeparatedBlock";
 
 export const LayoutMain = styled.section`
@@ -21,6 +24,9 @@ const Main = () => {
 
       <AboutModelAndSpecs />
       <SeparatedBlock />
+      <BlockAbout3D />
+      <BenefitsBlock />
+      <RoundDesign />
       <Footer />
     </LayoutMain>
   );

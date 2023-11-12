@@ -19,14 +19,14 @@ const LayoutButton = styled.button`
 `;
 
 const Button = (props: any) => {
-  const { width, height, children, wightFont } = props;
+  const { width, height, children, weightFont } = props;
 
   return (
     <LayoutButton
       style={{
         width: `${width}%`,
         height: `${height}px`,
-        fontWeight: `${wightFont}`,
+        fontWeight: `${weightFont}`,
       }}
     >
       {children}

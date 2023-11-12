@@ -6,14 +6,14 @@ import styled from "styled-components";
 const ImgForModelAndSpec = require("@assets/ImgForModelAndSpec.svg")
   .default as string;
 
-const LayoutAboutModelAndSpecsWraper = styled.section`
+export const LayoutAboutModelAndSpecsWraper = styled.section`
   display: flex;
   position: relative;
   width: 100%;
   background-color: #e9e9e9;
   height: 823px;
 `;
-const ContainerAboutModelAndSpecs = styled.div`
+export const ContainerAboutModelAndSpecs = styled.div`
   display: flex;
   align-items: center;
   justify-content: end;
@@ -23,7 +23,7 @@ const ContainerAboutModelAndSpecs = styled.div`
   width: calc(100% - 195px);
 `;
 
-const ContainerAboutModelAndSpecs__ContainerDesription = styled.div`
+export const ContainerAboutModelAndSpecs__ContainerDesription = styled.div`
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ const ContainerAboutModelAndSpecs__ContainerDesription = styled.div`
   left: 195px;
 `;
 
-const ContainerAboutModelAndSpecs__ContaineTitle = styled.div`
+export const ContainerAboutModelAndSpecs__ContaineTitle = styled.div`
   position: absolute;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -44,14 +44,14 @@ const ContainerAboutModelAndSpecs__ContaineTitle = styled.div`
   left: 195px;
 `;
 
-const ContainerAboutModelAndSpecs__InnerContainerDesription = styled.div`
+export const ContainerAboutModelAndSpecs__InnerContainerDesription = styled.div`
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 32px;
   font-size: 20px;
 `;
 
-const ContainerAboutModelAndSpecs__ContainerImgAboutModelAndSpecs = styled.img`
+export const ContainerAboutModelAndSpecs__ContainerImgAboutModelAndSpecs = styled.img`
   width: 970.69px;
   height: 725px;
 `;
@@ -72,7 +72,7 @@ const AboutModelAndSpecs = () => {
             mounting solution, it's tailor-made for the industrial world. 
           </ContainerAboutModelAndSpecs__InnerContainerDesription>
 
-          <Button width="57" weighth="700">
+          <Button width="57" weightFont="700">
             Explore models & specs
           </Button>
         </ContainerAboutModelAndSpecs__ContainerDesription>
