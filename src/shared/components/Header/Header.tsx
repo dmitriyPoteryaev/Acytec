@@ -15,6 +15,7 @@ const LayoutHeader = styled.header`
   justify-content: space-between;
   width: 100%;
   background-color: #f8f8f8;
+  align-self: start;
 `;
 
 const LayoutHeader_leftSide = styled.div`

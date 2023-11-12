@@ -7,7 +7,7 @@ import styled from "styled-components";
 import AboutModelAndSpecs from "./components/AboutModelAndSpecs";
 import SeparatedBlock from "./components/SeparatedBlock";
 
-const LayoutMain = styled.section`
+export const LayoutMain = styled.section`
   display: flex;
   flex-wrap: wrap;
   height: 100%;

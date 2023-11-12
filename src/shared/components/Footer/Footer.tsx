@@ -14,6 +14,7 @@ const LayoutFooter = styled.footer`
   height: 373px;
   flex-wrap: wrap;
   width: 100%;
+  align-self: end;
 `;
 
 const LayoutFooter__socialmediaInfo = styled.div`
