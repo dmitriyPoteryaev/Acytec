@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dmitriyPoteryaev/Akytec/static/css/main.8715c8d2.css",
+    "main.js": "/dmitriyPoteryaev/Akytec/static/js/main.7a27639d.js",
+    "static/media/ImgForModelAndSpec.svg": "/dmitriyPoteryaev/Akytec/static/media/ImgForModelAndSpec.06b64a3931a2f2c5ad216df039014a2c.svg",
+    "static/media/resistance.svg": "/dmitriyPoteryaev/Akytec/static/media/resistance.3e77f2e32ed2f906987daa7dd0a74a0a.svg",
+    "static/media/current.svg": "/dmitriyPoteryaev/Akytec/static/media/current.036c3c2d89e8e88388ede91794915d17.svg",
+    "static/media/voltage.svg": "/dmitriyPoteryaev/Akytec/static/media/voltage.0540a87b1c1ada600bac1db84e1c8c02.svg",
+    "static/media/AcytecLogo.svg": "/dmitriyPoteryaev/Akytec/static/media/AcytecLogo.ce317d2131f2c705ba8b93902be1bd80.svg",
+    "static/media/temperature.svg": "/dmitriyPoteryaev/Akytec/static/media/temperature.5e76a02c845abf8fdedd40677ebb3081.svg",
+    "static/media/level.svg": "/dmitriyPoteryaev/Akytec/static/media/level.85c79777af4191759991307d5539879b.svg",
+    "static/media/weight.svg": "/dmitriyPoteryaev/Akytec/static/media/weight.d29c876fb1506c60b5456bd7ce8566bd.svg",
+    "static/media/twiter.svg": "/dmitriyPoteryaev/Akytec/static/media/twiter.5ef08983ab52a9d495e9a838346eadfc.svg",
+    "static/media/youtube.svg": "/dmitriyPoteryaev/Akytec/static/media/youtube.038476c9f0736c3c4deaeb96da19e834.svg",
+    "static/media/facebook.svg": "/dmitriyPoteryaev/Akytec/static/media/facebook.21d8f579dff1e2ec1604ba8893ddc662.svg",
+    "static/media/pressure.svg": "/dmitriyPoteryaev/Akytec/static/media/pressure.6baffeb99b7750c2ddbf19507eda0b00.svg",
+    "index.html": "/dmitriyPoteryaev/Akytec/index.html",
+    "static/media/humidity.svg": "/dmitriyPoteryaev/Akytec/static/media/humidity.c0594b94350ab8d4baaa15d0969cf3eb.svg",
+    "static/media/InvertedMenu.svg": "/dmitriyPoteryaev/Akytec/static/media/InvertedMenu.cc7e2d6363f5768db5250f92a8fe8c31.svg",
+    "static/media/Menu.svg": "/dmitriyPoteryaev/Akytec/static/media/Menu.954d87b2ed6b527081017a33a52c287f.svg",
+    "main.8715c8d2.css.map": "/dmitriyPoteryaev/Akytec/static/css/main.8715c8d2.css.map",
+    "main.7a27639d.js.map": "/dmitriyPoteryaev/Akytec/static/js/main.7a27639d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8715c8d2.css",
+    "static/js/main.7a27639d.js"
+  ]
+}
