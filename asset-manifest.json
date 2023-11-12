@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dmitriyPoteryaev/Akytec/static/css/main.8715c8d2.css",
-    "main.js": "/dmitriyPoteryaev/Akytec/static/js/main.9296adae.js",
+    "main.js": "/dmitriyPoteryaev/Akytec/static/js/main.7a27639d.js",
     "static/media/ImgForModelAndSpec.svg": "/dmitriyPoteryaev/Akytec/static/media/ImgForModelAndSpec.06b64a3931a2f2c5ad216df039014a2c.svg",
     "static/media/resistance.svg": "/dmitriyPoteryaev/Akytec/static/media/resistance.3e77f2e32ed2f906987daa7dd0a74a0a.svg",
     "static/media/current.svg": "/dmitriyPoteryaev/Akytec/static/media/current.036c3c2d89e8e88388ede91794915d17.svg",
@@ -19,10 +19,10 @@
     "static/media/InvertedMenu.svg": "/dmitriyPoteryaev/Akytec/static/media/InvertedMenu.cc7e2d6363f5768db5250f92a8fe8c31.svg",
     "static/media/Menu.svg": "/dmitriyPoteryaev/Akytec/static/media/Menu.954d87b2ed6b527081017a33a52c287f.svg",
     "main.8715c8d2.css.map": "/dmitriyPoteryaev/Akytec/static/css/main.8715c8d2.css.map",
-    "main.9296adae.js.map": "/dmitriyPoteryaev/Akytec/static/js/main.9296adae.js.map"
+    "main.7a27639d.js.map": "/dmitriyPoteryaev/Akytec/static/js/main.7a27639d.js.map"
   },
   "entrypoints": [
     "static/css/main.8715c8d2.css",
-    "static/js/main.9296adae.js"
+    "static/js/main.7a27639d.js"
   ]
 }
