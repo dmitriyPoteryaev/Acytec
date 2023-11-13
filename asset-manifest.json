@@ -1,9 +1,17 @@
 {
   "files": {
     "main.css": "/Akytec/static/css/main.8715c8d2.css",
-    "main.js": "/Akytec/static/js/main.d5e60a8f.js",
+    "main.js": "/Akytec/static/js/main.b17ae6b1.js",
     "static/media/ImgFor3DModelBlock.svg": "/Akytec/static/media/ImgFor3DModelBlock.6560edd181bbc5a6ce6ce5e1ca61be6b.svg",
     "static/media/ImgForModelAndSpec.svg": "/Akytec/static/media/ImgForModelAndSpec.06b64a3931a2f2c5ad216df039014a2c.svg",
+    "static/media/SMI2.svg": "/Akytec/static/media/SMI2.717241fb540ec307c64cdd4e2dae12d4.svg",
+    "static/media/ITP15.svg": "/Akytec/static/media/ITP15.905edfa1b9bc17de3b01a7ee06635ab1.svg",
+    "static/media/set.svg": "/Akytec/static/media/set.fcf31926041298ffeddc03f9939cb3cd.svg",
+    "static/media/ITP16.svg": "/Akytec/static/media/ITP16.3f6df9b4256b542bde1c03ce929ca61a.svg",
+    "static/media/ITP14.svg": "/Akytec/static/media/ITP14.e841d0fb51868bd9f2c6861059018f5a.svg",
+    "static/media/push.svg": "/Akytec/static/media/push.a7627c96db173bf77f1dd8bfdb850ae1.svg",
+    "static/media/ITP11.svg": "/Akytec/static/media/ITP11.d2378a2ff97a1f8c0d624289558444ba.svg",
+    "static/media/select.svg": "/Akytec/static/media/select.bfaf5c4a254a0106d1ebac9b90b927ca.svg",
     "static/media/ImgForRoundDesign.svg": "/Akytec/static/media/ImgForRoundDesign.fcfb70d53cd590176baae30cbc4995bc.svg",
     "static/media/resistance.svg": "/Akytec/static/media/resistance.3e77f2e32ed2f906987daa7dd0a74a0a.svg",
     "static/media/current.svg": "/Akytec/static/media/current.036c3c2d89e8e88388ede91794915d17.svg",
@@ -24,11 +32,13 @@
     "static/media/humidity.svg": "/Akytec/static/media/humidity.c0594b94350ab8d4baaa15d0969cf3eb.svg",
     "static/media/InvertedMenu.svg": "/Akytec/static/media/InvertedMenu.cc7e2d6363f5768db5250f92a8fe8c31.svg",
     "static/media/Menu.svg": "/Akytec/static/media/Menu.954d87b2ed6b527081017a33a52c287f.svg",
+    "static/media/plus.svg": "/Akytec/static/media/plus.07746f7513caa45fa03015f480f07f6a.svg",
+    "static/media/checkMark.svg": "/Akytec/static/media/checkMark.aa360668e9efae403f7d450e5565949c.svg",
     "main.8715c8d2.css.map": "/Akytec/static/css/main.8715c8d2.css.map",
-    "main.d5e60a8f.js.map": "/Akytec/static/js/main.d5e60a8f.js.map"
+    "main.b17ae6b1.js.map": "/Akytec/static/js/main.b17ae6b1.js.map"
   },
   "entrypoints": [
     "static/css/main.8715c8d2.css",
-    "static/js/main.d5e60a8f.js"
+    "static/js/main.b17ae6b1.js"
   ]
 }
