@@ -51,17 +51,16 @@ const LayoutBenefistsBlockWraper = styled.div`
   padding: 142px 286px 142px 286px;
 `;
 
-const LayoutContainerBenefitsBlock = styled.div`
+export const LayoutContainerBenefitsBlock = styled.div`
   min-height: 338.41px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
-  min-height: 139px;
   width: 100%;
 `;
 
-const ContainerWithInscriptionAndImg = styled.div`
+export const ContainerWithInscriptionAndImg = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,27 +68,27 @@ const ContainerWithInscriptionAndImg = styled.div`
   width: 265.25px;
 `;
 
-const ContainerBenefitsInscription = styled.div`
+export const ContainerBenefitsInscription = styled.div`
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #00a197;
   font-weight: 700;
   font-size: 22px;
 `;
-const ContainerBenefitsInscription__header = styled.div`
+export const ContainerBenefitsInscription__header = styled.div`
   margin-top: 22px;
   color: #00a197;
   font-size: 20px;
 `;
 
-const ContainerBenefitsInscription__inscription = styled.div`
+export const ContainerBenefitsInscription__inscription = styled.div`
   margin-top: 37px;
   color: #212529;
   font-weight: 400;
   font-size: 16px;
 `;
 
-const ContainerButton = styled.div`
+export const ContainerButton = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;

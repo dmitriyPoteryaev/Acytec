@@ -7,6 +7,7 @@ import styled from "styled-components";
 import AboutModelAndSpecs from "./components/AboutModelAndSpecs";
 import BenefitsBlock from "./components/BenefitsBlock";
 import BlockAbout3D from "./components/BlockAbout3D";
+import QuickSetupGuide from "./components/QuickSetupGuide";
 import RoundDesign from "./components/RoundDesign";
 import SeparatedBlock from "./components/SeparatedBlock";
 
@@ -27,6 +28,7 @@ const Main = () => {
       <BlockAbout3D />
       <BenefitsBlock />
       <RoundDesign />
+      <QuickSetupGuide />
       <Footer />
     </LayoutMain>
   );

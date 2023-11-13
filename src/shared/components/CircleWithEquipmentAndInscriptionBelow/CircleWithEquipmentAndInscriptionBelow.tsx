@@ -21,6 +21,7 @@ const CircleWithEquipmentAndInscriptionBelow = (props: any) => {
     widthImg,
     heightImg,
     imgsrc,
+    borderRadius,
     children,
   } = props;
 
@@ -32,6 +33,7 @@ const CircleWithEquipmentAndInscriptionBelow = (props: any) => {
           width: `${withCircleBlock}px`,
           height: `${heightCircleBlock}px`,
           border: borderStyle,
+          borderRadius: borderRadius,
         }}
       >
         <ContainerImg
