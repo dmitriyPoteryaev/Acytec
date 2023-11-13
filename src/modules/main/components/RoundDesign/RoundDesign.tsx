@@ -1,6 +1,5 @@
 import React from "react";
 
-import Button from "@shared/components/Button";
 import styled from "styled-components";
 
 import {
@@ -14,24 +13,24 @@ import {
 const ImgForRoundDesign = require("@assets/ImgForRoundDesign.svg")
   .default as string;
 
-const LayoutSeparatedRoundDesign = styled(LayoutAboutModelAndSpecsWraper)`
+const LayoutSeparatedBlockRoundDesign = styled(LayoutAboutModelAndSpecsWraper)`
   height: 796.04px;
 
   background-color: #fbfbfb;
 `;
-const ContainerSeparatedRoundDesign = styled(ContainerAboutModelAndSpecs)`
+const ContainerRoundDesign = styled(ContainerAboutModelAndSpecs)`
   justify-content: start;
   margin-left: 20px;
   margin-top: 74.52px;
   margin-bottom: 74.52px;
   width: calc(100% - 20px);
 `;
-const ContainerSeparatedRoundDesign__ContainerImgRoundDesign = styled.img`
+const ContainerdRoundDesign__ContainerImgRoundDesign = styled.img`
   width: 1150px;
   height: 647px;
 `;
 
-const ContainerSeparatedRoundDesign__ContaineTitle = styled(
+const ContainerRoundDesign__ContaineTitle = styled(
   ContainerAboutModelAndSpecs__ContaineTitle,
 )`
   font-weight: 700;
@@ -39,45 +38,42 @@ const ContainerSeparatedRoundDesign__ContaineTitle = styled(
   top: 224px;
   left: 1179px;
   color: #212529;
-  font-size: 60px;
 `;
-const ContainerSeparatedRoundDesign__InnerContainerDesription = styled(
+const ContainerRoundDesign__InnerContainerDesription = styled(
   ContainerAboutModelAndSpecs__InnerContainerDesription,
+)``;
+
+const ContainerRoundDesign__ContainerDesription = styled(
+  ContainerAboutModelAndSpecs__ContainerDesription,
 )`
-  font-weight: 700;
-  line-height: 75px;
-  top: 224px;
+  width: 511.54px;
+  height: 120.91px;
+  top: 418px;
   left: 1179px;
-  color: #212529;
-  font-size: 60px;
 `;
 
 const RoundDesign = () => {
   return (
-    <LayoutSeparatedRoundDesign>
-      <ContainerSeparatedRoundDesign>
-        <ContainerSeparatedRoundDesign__ContainerImgRoundDesign
+    <LayoutSeparatedBlockRoundDesign>
+      <ContainerRoundDesign>
+        <ContainerdRoundDesign__ContainerImgRoundDesign
           alt="ImgForRoundDesign"
           src={ImgForRoundDesign}
         />
-      </ContainerSeparatedRoundDesign>
-      {/* <ContainerAboutModelAndSpecs__ContainerDesription>
-        <ContainerSeparatedRoundDesign__InnerContainerDesription>
-          Boasting a neat front footprint of 48x26mm, our device <br />
-          showcases up to 4 digits with crystal clarity at a height <br />
-          of 14 mm. Thanks to its compact 55mm cylindrical rear,
-          <br />
-          it effortlessly fits into limited spaces, making it perfect <br />
-          for push-button panels or control cabinets. Choose the
-          <br />
-          ideal model for your space requirements.
-        </ContainerSeparatedRoundDesign__InnerContainerDesription>
-      </ContainerAboutModelAndSpecs__ContainerDesription> */}
+      </ContainerRoundDesign>
+      <ContainerRoundDesign__ContainerDesription>
+        <ContainerRoundDesign__InnerContainerDesription>
+          AkYtec's ITP series indicators fit seamlessly into a <br />
+          standard Ø22.5mm cutout, making mounting notably <br />
+          easier than the conventional rectangular control cabinet <br />
+          installations. Choose a round for a hassle-free setup!
+        </ContainerRoundDesign__InnerContainerDesription>
+      </ContainerRoundDesign__ContainerDesription>
 
-      <ContainerSeparatedRoundDesign__ContaineTitle>
+      <ContainerRoundDesign__ContaineTitle>
         Simplicity in <br /> round design
-      </ContainerSeparatedRoundDesign__ContaineTitle>
-    </LayoutSeparatedRoundDesign>
+      </ContainerRoundDesign__ContaineTitle>
+    </LayoutSeparatedBlockRoundDesign>
   );
 };
 

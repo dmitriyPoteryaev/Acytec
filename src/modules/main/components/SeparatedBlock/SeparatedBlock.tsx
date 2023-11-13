@@ -3,6 +3,22 @@ import React from "react";
 import CircleWithEquipmentAndInscriptionBelow from "@shared/components/CircleWithEquipmentAndInscriptionBelow";
 import styled from "styled-components";
 
+export const LayoutContainerSeparatedBlock = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  min-height: 139px;
+  width: 100%;
+`;
+
+export const ContainerInscription = styled.div`
+  font-family: "Roboto", sans-serif;
+  color: #00a197;
+  font-weight: 700;
+  font-size: 22px;
+`;
+
 const ImgPressuse = require("@assets/sepatedblock/pressure.svg")
   .default as string;
 const ImgLevel = require("@assets/sepatedblock/level.svg").default as string;
@@ -66,15 +82,6 @@ const LayoutSeparatedBlockWraper = styled.div`
   padding: 56px 195px 56px 195px;
 `;
 
-const LayoutContainerSeparatedBlock = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  justify-content: space-between;
-  min-height: 139px;
-  width: 100%;
-`;
-
 const ContainerWithInscriptionAndImg = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -82,13 +89,6 @@ const ContainerWithInscriptionAndImg = styled.div`
   justify-content: center;
   height: 139px;
   width: 110px;
-`;
-
-const ContainerInscription = styled.div`
-  font-family: "Roboto", sans-serif;
-  color: #00a197;
-  font-weight: 700;
-  font-size: 22px;
 `;
 
 const SeparatedBlock = () => {

@@ -4,6 +4,11 @@ import Button from "@shared/components/Button";
 import CircleWithEquipmentAndInscriptionBelow from "@shared/components/CircleWithEquipmentAndInscriptionBelow";
 import styled from "styled-components";
 
+// import {
+//   LayoutContainerSeparatedBlock,
+//   ContainerInscription,
+// } from "../SeparatedBlock";
+
 const ImgVersatileApplication =
   require("@assets/benefits/VersatileApplication.svg").default as string;
 const ImgDiverseInput = require("@assets/benefits/DiverseInput.svg")
@@ -17,7 +22,7 @@ const ImgDualFuncControl = require("@assets/benefits/DualFuncControl.svg")
 const ArrayOfImgAndInscription = [
   {
     srcImg: ImgVersatileApplication,
-    header: "Versatile application ",
+    header: "Versatile application",
     inscription:
       "Measure levels, pressure, temperature, flow, weight, and more.",
   },
@@ -40,18 +45,19 @@ const ArrayOfImgAndInscription = [
   },
 ];
 
-const LayoutSeparatedBlockWraper = styled.div`
+const LayoutBenefistsBlockWraper = styled.div`
   min-height: 727px;
   width: 100%;
   padding: 142px 286px 142px 286px;
 `;
 
-const LayoutContainerSeparatedBlock = styled.div`
+const LayoutContainerBenefitsBlock = styled.div`
+  min-height: 338.41px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
-  min-height: 338.41px;
+  min-height: 139px;
   width: 100%;
 `;
 
@@ -63,20 +69,20 @@ const ContainerWithInscriptionAndImg = styled.div`
   width: 265.25px;
 `;
 
-const ContainerInscription = styled.div`
+const ContainerBenefitsInscription = styled.div`
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #00a197;
   font-weight: 700;
   font-size: 22px;
 `;
-const ContainerInscription__header = styled.div`
+const ContainerBenefitsInscription__header = styled.div`
   margin-top: 22px;
   color: #00a197;
   font-size: 20px;
 `;
 
-const ContainerInscription__inscription = styled.div`
+const ContainerBenefitsInscription__inscription = styled.div`
   margin-top: 37px;
   color: #212529;
   font-weight: 400;
@@ -90,8 +96,8 @@ const ContainerButton = styled.div`
 `;
 const BenefitsBlock = () => {
   return (
-    <LayoutSeparatedBlockWraper>
-      <LayoutContainerSeparatedBlock>
+    <LayoutBenefistsBlockWraper>
+      <LayoutContainerBenefitsBlock>
         {ArrayOfImgAndInscription.map((elem: any) => {
           return (
             <ContainerWithInscriptionAndImg key={elem.inscription}>
@@ -103,25 +109,25 @@ const BenefitsBlock = () => {
                 heightImg="84"
                 imgsrc={elem.srcImg}
               >
-                <ContainerInscription>
-                  <ContainerInscription__header>
+                <ContainerBenefitsInscription>
+                  <ContainerBenefitsInscription__header>
                     {elem.header}
-                  </ContainerInscription__header>
-                  <ContainerInscription__inscription>
+                  </ContainerBenefitsInscription__header>
+                  <ContainerBenefitsInscription__inscription>
                     {elem.inscription}
-                  </ContainerInscription__inscription>
-                </ContainerInscription>
+                  </ContainerBenefitsInscription__inscription>
+                </ContainerBenefitsInscription>
               </CircleWithEquipmentAndInscriptionBelow>
             </ContainerWithInscriptionAndImg>
           );
         })}
-      </LayoutContainerSeparatedBlock>
+      </LayoutContainerBenefitsBlock>
       <ContainerButton>
         <Button width="20" weightFont="700">
           More benefits
         </Button>
       </ContainerButton>
-    </LayoutSeparatedBlockWraper>
+    </LayoutBenefistsBlockWraper>
   );
 };
 
