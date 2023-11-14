@@ -8,6 +8,7 @@ const LayoutButton = styled.button`
   align-items: center;
   height: 32px;
   width: 32px;
+  cursor: pointer;
   border: none;
   border-radius: 50%;
 `;
