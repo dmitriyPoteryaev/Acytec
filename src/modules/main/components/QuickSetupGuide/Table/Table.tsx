@@ -20,8 +20,10 @@ const ImgSMI2 = require("@assets/tableContent/ImgDevice/SMI2.svg")
   .default as string;
 
 const LayoutTable = styled.div`
-  height: 1069.47px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 1069px;
+  // width: 100%;
   box-sizing: border-box;
 `;
 const ContainerRow = styled.div`
@@ -50,7 +52,7 @@ const LayoutDigitalWithQuantity = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 30px;
+  min-height: 30px;
   margin-top: 12.5px;
 `;
 const ContainerDigital = styled.div`
@@ -58,7 +60,7 @@ const ContainerDigital = styled.div`
   font-weight: 400;
   border: 2px solid #606569;
   background-color: black;
-  height: 30px;
+  min-height: 30px;
   width: 40%;
   font-size: 30px;
   color: #ed0505;
@@ -71,7 +73,7 @@ const ContainerQuantity = styled.div`
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  height: 30px;
+  min-height: 30px;
   width: 20%;
   border-radius: 2.5px;
   text-align: center;

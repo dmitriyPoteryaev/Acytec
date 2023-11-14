@@ -17,10 +17,9 @@ const ImgEmail = require("@assets/contactUs/Email.svg").default as string;
 const LayoutFooter = styled.footer`
   display: flex;
 
-  height: 373px;
+  min-height: 373px;
   flex-wrap: wrap;
-  width: 100%;
-  align-self: end;
+  min-width: 100%;
 `;
 
 const LayoutFooter__socialmediaInfo = styled.div`
@@ -35,7 +34,7 @@ const LayoutFooter__socialmediaInfo = styled.div`
 const LayoutFooter__contactInfo = styled.div`
   display: flex;
   width: 100%;
-  height: 228px;
+  min-height: 228px;
   background-color: #e9e9e9;
 `;
 
@@ -44,7 +43,7 @@ const LayoutFooter__personalInformation = styled.div`
   justify-content: space-between;
   width: 61%;
   margin-left: 195px;
-  height: 134px;
+  min-height: 134px;
   margin-top: 34.52px;
 `;
 

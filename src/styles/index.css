@@ -10,7 +10,7 @@ html {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 100vh;
+    height: 100%;
     min-height: 100vh;
     /* WebKit [iOS Safari] fix: mobile viewport bug when 100vh is unaware of browser UI */
     min-height: -webkit-fill-available;

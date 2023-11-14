@@ -13,9 +13,8 @@ const LayoutHeader = styled.header`
   display: flex;
   height: 110px;
   justify-content: space-between;
-  width: 100%;
+  min-width: 100%;
   background-color: #f8f8f8;
-  align-self: start;
 `;
 
 const LayoutHeader_leftSide = styled.div`

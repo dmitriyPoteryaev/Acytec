@@ -11,7 +11,7 @@ export const LayoutAboutModelAndSpecsWraper = styled.section`
   position: relative;
   width: 100%;
   background-color: #e9e9e9;
-  height: 823px;
+  // height: 823px;
 `;
 export const ContainerAboutModelAndSpecs = styled.div`
   display: flex;
@@ -49,6 +49,7 @@ export const ContainerAboutModelAndSpecs__InnerContainerDesription = styled.div`
   font-weight: 400;
   line-height: 32px;
   font-size: 20px;
+  display: flex;
 `;
 
 export const ContainerAboutModelAndSpecs__ContainerImgAboutModelAndSpecs = styled.img`

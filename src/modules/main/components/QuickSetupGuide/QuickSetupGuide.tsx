@@ -39,12 +39,14 @@ const ArrayOfImgAndInscription = [
 ];
 
 const LayoutQuickSetupGuide = styled(LayoutAboutModelAndSpecsWraper)`
-  min-height: 2476px;
+  flex-wrap: wrap;
 `;
 
 const ContainerQuickSetupGuide = styled.div`
+  display: flex;
+  flex-direction: column;
   margin: 113px 384px 137px 384px;
-
+  min-height: 100%;
   width: calc(100% - 768px);
 `;
 
@@ -145,6 +147,11 @@ const QuickSetupGuide = () => {
           Choose the model that suits your needs
         </ContainerTitleInQuickSetupGuide>
         <Table />
+        <ContainerButtonInQuickSetupGuide style={{ marginBottom: "10px" }}>
+          <Button width="25" weightFont="700">
+            DOWNLOAD FULL MANUAL
+          </Button>
+        </ContainerButtonInQuickSetupGuide>
       </ContainerQuickSetupGuide>
     </LayoutQuickSetupGuide>
   );
