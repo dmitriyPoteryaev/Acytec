@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Akytec/static/css/main.8715c8d2.css",
-    "main.js": "/Akytec/static/js/main.b17ae6b1.js",
+    "main.js": "/Akytec/static/js/main.a402df2b.js",
     "static/media/ImgFor3DModelBlock.svg": "/Akytec/static/media/ImgFor3DModelBlock.6560edd181bbc5a6ce6ce5e1ca61be6b.svg",
     "static/media/ImgForModelAndSpec.svg": "/Akytec/static/media/ImgForModelAndSpec.06b64a3931a2f2c5ad216df039014a2c.svg",
     "static/media/SMI2.svg": "/Akytec/static/media/SMI2.717241fb540ec307c64cdd4e2dae12d4.svg",
@@ -25,20 +25,23 @@
     "static/media/twiter.svg": "/Akytec/static/media/twiter.5ef08983ab52a9d495e9a838346eadfc.svg",
     "static/media/DualFuncControl.svg": "/Akytec/static/media/DualFuncControl.baa2b9ff701c85fa8e1e6a6a0f312516.svg",
     "static/media/AdaptiveLed.svg": "/Akytec/static/media/AdaptiveLed.ed6d7db8f34d4f8eab4f434896ab1397.svg",
+    "index.html": "/Akytec/index.html",
     "static/media/youtube.svg": "/Akytec/static/media/youtube.038476c9f0736c3c4deaeb96da19e834.svg",
     "static/media/facebook.svg": "/Akytec/static/media/facebook.21d8f579dff1e2ec1604ba8893ddc662.svg",
     "static/media/pressure.svg": "/Akytec/static/media/pressure.6baffeb99b7750c2ddbf19507eda0b00.svg",
-    "index.html": "/Akytec/index.html",
+    "static/media/Email.svg": "/Akytec/static/media/Email.153d4c733d216e319a5a4e7f17440f8e.svg",
+    "static/media/location.svg": "/Akytec/static/media/location.857428bb77e118071d8cd99908a4c985.svg",
+    "static/media/tel.svg": "/Akytec/static/media/tel.34a2d0617876d81c5bd2db102f483d38.svg",
     "static/media/humidity.svg": "/Akytec/static/media/humidity.c0594b94350ab8d4baaa15d0969cf3eb.svg",
     "static/media/InvertedMenu.svg": "/Akytec/static/media/InvertedMenu.cc7e2d6363f5768db5250f92a8fe8c31.svg",
     "static/media/Menu.svg": "/Akytec/static/media/Menu.954d87b2ed6b527081017a33a52c287f.svg",
     "static/media/plus.svg": "/Akytec/static/media/plus.07746f7513caa45fa03015f480f07f6a.svg",
     "static/media/checkMark.svg": "/Akytec/static/media/checkMark.aa360668e9efae403f7d450e5565949c.svg",
     "main.8715c8d2.css.map": "/Akytec/static/css/main.8715c8d2.css.map",
-    "main.b17ae6b1.js.map": "/Akytec/static/js/main.b17ae6b1.js.map"
+    "main.a402df2b.js.map": "/Akytec/static/js/main.a402df2b.js.map"
   },
   "entrypoints": [
     "static/css/main.8715c8d2.css",
-    "static/js/main.b17ae6b1.js"
+    "static/js/main.a402df2b.js"
   ]
 }
