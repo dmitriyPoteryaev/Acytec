@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Akytec/static/css/main.d40cfb89.css",
-    "main.js": "/Akytec/static/js/main.569b4857.js",
+    "main.js": "/Akytec/static/js/main.d1753377.js",
     "static/media/ImgFor3DModelBlock.svg": "/Akytec/static/media/ImgFor3DModelBlock.6560edd181bbc5a6ce6ce5e1ca61be6b.svg",
     "static/media/ImgForModelAndSpec.svg": "/Akytec/static/media/ImgForModelAndSpec.06b64a3931a2f2c5ad216df039014a2c.svg",
     "static/media/personalSpy.svg": "/Akytec/static/media/personalSpy.d2d53836bf19471e8d6a4d8004a5716f.svg",
@@ -40,10 +40,10 @@
     "static/media/plus.svg": "/Akytec/static/media/plus.07746f7513caa45fa03015f480f07f6a.svg",
     "static/media/checkMark.svg": "/Akytec/static/media/checkMark.aa360668e9efae403f7d450e5565949c.svg",
     "main.d40cfb89.css.map": "/Akytec/static/css/main.d40cfb89.css.map",
-    "main.569b4857.js.map": "/Akytec/static/js/main.569b4857.js.map"
+    "main.d1753377.js.map": "/Akytec/static/js/main.d1753377.js.map"
   },
   "entrypoints": [
     "static/css/main.d40cfb89.css",
-    "static/js/main.569b4857.js"
+    "static/js/main.d1753377.js"
   ]
 }
