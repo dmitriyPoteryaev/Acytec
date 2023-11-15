@@ -7,15 +7,6 @@ import { modalStore } from "@store/index";
 import { observer } from "mobx-react-lite";
 import styled from "styled-components";
 
-import AboutModelAndSpecs from "./components/AboutModelAndSpecs";
-import BenefitsBlock from "./components/BenefitsBlock";
-import BlockAbout3D from "./components/BlockAbout3D";
-import BlockGotQuestion from "./components/BlockGotQuestion";
-import PersonalSpyBlock from "./components/PersonalSpyBlock";
-import QuickSetupGuide from "./components/QuickSetupGuide";
-import RoundDesign from "./components/RoundDesign";
-import SeparatedBlock from "./components/SeparatedBlock";
-
 export const LayoutMain = styled.section`
   position: relative;
   display: flex;
@@ -28,10 +19,9 @@ export const LayoutMainWrapper = styled.div`
   flex: 1 1 auto;
 `;
 
-const Main = observer(() => {
+const MoreInfo = observer(() => {
   const { isVisModal, handlerChangeVisModal, globalhandlerChangeVisModal } =
     modalStore;
-
   return (
     <LayoutMain onClick={globalhandlerChangeVisModal}>
       <Header
@@ -39,20 +29,12 @@ const Main = observer(() => {
         isVisModal={isVisModal}
       />
       {isVisModal && <Modal />}
-      <LayoutMainWrapper>
-        <AboutModelAndSpecs />
-        <SeparatedBlock />
-        <BlockAbout3D />
-        <BenefitsBlock />
-        <RoundDesign />
-        <QuickSetupGuide />
-        <PersonalSpyBlock />
-        <BlockGotQuestion />
-      </LayoutMainWrapper>
+
+      <LayoutMainWrapper></LayoutMainWrapper>
 
       <Footer />
     </LayoutMain>
   );
 });
 
-export default Main;
+export default MoreInfo;

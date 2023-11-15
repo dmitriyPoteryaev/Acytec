@@ -19,7 +19,7 @@ const LayoutButton = styled.button`
 `;
 
 const Button = (props: any) => {
-  const { width, height, children, weightFont } = props;
+  const { width, height, children, weightFont, onClick } = props;
 
   return (
     <LayoutButton
@@ -28,6 +28,7 @@ const Button = (props: any) => {
         height: `${height}px`,
         fontWeight: `${weightFont}`,
       }}
+      onClick={onClick}
     >
       {children}
     </LayoutButton>

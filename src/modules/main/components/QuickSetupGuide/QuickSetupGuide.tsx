@@ -149,7 +149,7 @@ const QuickSetupGuide = () => {
         <Table />
         <ContainerButtonInQuickSetupGuide style={{ marginBottom: "10px" }}>
           <Button width="25" weightFont="700">
-            DOWNLOAD FULL MANUAL
+            REQUEST NOW
           </Button>
         </ContainerButtonInQuickSetupGuide>
       </ContainerQuickSetupGuide>

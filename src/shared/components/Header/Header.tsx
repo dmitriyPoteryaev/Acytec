@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 import Button from "../Button/Button";
@@ -57,15 +58,28 @@ const LayoutHeader_containerInfo = styled.div`
   }
 `;
 
-const Header = () => {
+const Header = (props: any) => {
+  const { handlerChangeVisModal, isVisModal } = props;
+
+  const navigate = useNavigate();
+
   return (
     <LayoutHeader>
       <LayoutHeader_leftSide>
-        <LayoutHeader__menu />
+        <LayoutHeader__menu
+          onClick={(event) => {
+            event.stopPropagation();
+            handlerChangeVisModal();
+          }}
+          style={isVisModal ? { backgroundImage: `url(${IvertMenu})` } : {}}
+        />
         <LayoutHeader__logo alt="logo" src={Logo} />
       </LayoutHeader_leftSide>
       <LayoutHeader_rightSide>
-        <LayoutHeader_containerInfo> MORE INFO</LayoutHeader_containerInfo>
+        <LayoutHeader_containerInfo onClick={() => navigate("/moreInfo")}>
+          {" "}
+          MORE INFO
+        </LayoutHeader_containerInfo>
         <Button width="43">REQUEST</Button>
       </LayoutHeader_rightSide>
     </LayoutHeader>
