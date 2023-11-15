@@ -4,7 +4,8 @@ import ButtonMoreInfo from "@shared/components/ButtonMoreInfo";
 import Footer from "@shared/components/Footer";
 import Header from "@shared/components/Header";
 import Modal from "@shared/components/Modal";
-import { modalStore } from "@store/index";
+import PopUp from "@shared/components/PopUp";
+import { modalStore, popUpStore } from "@store/index";
 import { observer } from "mobx-react-lite";
 import styled from "styled-components";
 
@@ -33,15 +34,25 @@ const Main = observer(() => {
   const { isVisModal, handlerChangeVisModal, globalhandlerChangeVisModal } =
     modalStore;
 
+  const { isVisPopUp, handlerChangeVisPopUp, globalhandlerChangeVisPopUp } =
+    popUpStore;
+
   return (
-    <LayoutMain onClick={globalhandlerChangeVisModal}>
+    <LayoutMain
+      onClick={() => {
+        globalhandlerChangeVisModal();
+        globalhandlerChangeVisPopUp();
+      }}
+    >
       <Header
         handlerChangeVisModal={handlerChangeVisModal}
         isVisModal={isVisModal}
+        handlerChangeVisPopUp={handlerChangeVisPopUp}
       >
         <ButtonMoreInfo />
       </Header>
       {isVisModal && <Modal />}
+      {isVisPopUp && <PopUp handlerChangeVisPopUp={handlerChangeVisPopUp} />}
       <LayoutMainWrapper>
         <AboutModelAndSpecs />
         <SeparatedBlock />

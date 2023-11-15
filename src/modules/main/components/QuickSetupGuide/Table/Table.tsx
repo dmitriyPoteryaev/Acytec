@@ -115,6 +115,204 @@ const DeviceQuantityYELLOW = (props: any) => {
   );
 };
 
+export const TableForPopUp = (props: any) => {
+  const { MinHeight } = props;
+
+  return (
+    <LayoutTable
+      style={{
+        minHeight: `${MinHeight}px`,
+      }}
+    >
+      <ContainerRow>
+        <ContainerCell
+          style={{
+            width: "14%",
+            fontWeight: "700",
+            justifyContent: "start",
+            paddingLeft: "11px",
+            textAlign: "left",
+            minHeight: "144px",
+          }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{
+            display: "flex",
+            justifyContent: "start",
+            flexDirection: "column",
+            width: "17%",
+            minHeight: "144px",
+          }}
+        >
+          <img src={ImgITP11} />
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            minHeight: "144px",
+          }}
+        >
+          {" "}
+          <img src={ImgITP14} />
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            minHeight: "144px",
+          }}
+        >
+          {" "}
+          <img src={ImgITP15} />
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            minHeight: "144px",
+          }}
+        >
+          {" "}
+          <img src={ImgITP16} />
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            display: "flex",
+            justifyContent: "start",
+            flexDirection: "column",
+            width: "17%",
+            minHeight: "144px",
+          }}
+        >
+          <img src={ImgSMI2} />
+        </ContainerCell>
+      </ContainerRow>
+
+      <ContainerRow>
+        <ContainerCell
+          style={{
+            width: "14%",
+            fontWeight: "700",
+            justifyContent: "start",
+            paddingLeft: "11px",
+            textAlign: "left",
+            backgroundColor: "#D2D2D2",
+          }}
+        >
+          Choose <br /> your device
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "#D2D2D2" }}>
+          <ButtonChooseDevice />
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "#D2D2D2" }}>
+          <ButtonChooseDevice />
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "#D2D2D2" }}>
+          <ButtonChooseDevice />
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "#D2D2D2" }}>
+          <ButtonChooseDevice />
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "#D2D2D2" }}>
+          <ButtonChooseDevice />
+        </ContainerCell>
+      </ContainerRow>
+
+      <ContainerRow>
+        <ContainerCell
+          style={{
+            width: "14%",
+            fontWeight: "700",
+            justifyContent: "start",
+            paddingLeft: "11px",
+            textAlign: "left",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        >
+          LED colors, <br /> Device quantity
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            display: "flex",
+            justifyContent: "start",
+            flexDirection: "column",
+            width: "17%",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        >
+          <DeviceQuantityRED qualuty={6} />
+          <DeviceQuantityGREEN qualuty={30} />
+        </ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{
+            width: "17%",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{
+            display: "flex",
+            justifyContent: "start",
+            flexDirection: "column",
+            width: "17%",
+            backgroundColor: "#D2D2D2",
+            minHeight: "144px",
+          }}
+        >
+          <DeviceQuantityRED qualuty={6} />
+          <DeviceQuantityGREEN qualuty={3} />
+          <DeviceQuantityYELLOW qualuty={1} />
+        </ContainerCell>
+      </ContainerRow>
+
+      <ContainerRow>
+        <ContainerCell
+          style={{
+            width: "14%",
+            fontWeight: "700",
+            justifyContent: "start",
+            paddingLeft: "11px",
+            textAlign: "left",
+            backgroundColor: "white",
+          }}
+        >
+          Total devices <br /> amount
+        </ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "white" }}>
+          36
+        </ContainerCell>
+        <ContainerCell
+          style={{ width: "17%", backgroundColor: "white" }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{ width: "17%", backgroundColor: "white" }}
+        ></ContainerCell>
+        <ContainerCell
+          style={{ width: "17%", backgroundColor: "white" }}
+        ></ContainerCell>
+        <ContainerCell style={{ width: "17%", backgroundColor: "white" }}>
+          10
+        </ContainerCell>
+      </ContainerRow>
+    </LayoutTable>
+  );
+};
+
 const Table = () => {
   return (
     <LayoutTable>

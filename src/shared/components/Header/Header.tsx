@@ -47,7 +47,8 @@ const LayoutHeader_rightSide = styled.div`
 `;
 
 const Header = (props: any) => {
-  const { handlerChangeVisModal, isVisModal, children } = props;
+  const { handlerChangeVisModal, isVisModal, children, handlerChangeVisPopUp } =
+    props;
 
   return (
     <LayoutHeader>
@@ -63,7 +64,15 @@ const Header = (props: any) => {
       </LayoutHeader_leftSide>
       <LayoutHeader_rightSide>
         {children}
-        <Button width="43">REQUEST</Button>
+        <Button
+          width="43"
+          onClick={(event: any) => {
+            event.stopPropagation();
+            handlerChangeVisPopUp(true);
+          }}
+        >
+          REQUEST
+        </Button>
       </LayoutHeader_rightSide>
     </LayoutHeader>
   );
