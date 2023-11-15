@@ -1,5 +1,6 @@
 import React from "react";
 
+import ButtonMoreInfo from "@shared/components/ButtonMoreInfo";
 import Footer from "@shared/components/Footer";
 import Header from "@shared/components/Header";
 import Modal from "@shared/components/Modal";
@@ -37,7 +38,9 @@ const Main = observer(() => {
       <Header
         handlerChangeVisModal={handlerChangeVisModal}
         isVisModal={isVisModal}
-      />
+      >
+        <ButtonMoreInfo />
+      </Header>
       {isVisModal && <Modal />}
       <LayoutMainWrapper>
         <AboutModelAndSpecs />

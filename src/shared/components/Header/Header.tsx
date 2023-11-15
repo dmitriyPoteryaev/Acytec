@@ -1,6 +1,5 @@
 import React from "react";
 
-import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 import Button from "../Button/Button";
@@ -46,22 +45,9 @@ const LayoutHeader_rightSide = styled.div`
   justify-content: space-between;
   margin-right: 195px;
 `;
-const LayoutHeader_containerInfo = styled.div`
-  width: 175px;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  cursor: pointer;
-  &:hover {
-    font-weight: 600;
-    color: #00b9b5;
-  }
-`;
 
 const Header = (props: any) => {
-  const { handlerChangeVisModal, isVisModal } = props;
-
-  const navigate = useNavigate();
+  const { handlerChangeVisModal, isVisModal, children } = props;
 
   return (
     <LayoutHeader>
@@ -76,10 +62,7 @@ const Header = (props: any) => {
         <LayoutHeader__logo alt="logo" src={Logo} />
       </LayoutHeader_leftSide>
       <LayoutHeader_rightSide>
-        <LayoutHeader_containerInfo onClick={() => navigate("/moreInfo")}>
-          {" "}
-          MORE INFO
-        </LayoutHeader_containerInfo>
+        {children}
         <Button width="43">REQUEST</Button>
       </LayoutHeader_rightSide>
     </LayoutHeader>
