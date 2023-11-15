@@ -50,6 +50,9 @@ const NoteAttentionQuestionInput = styled.span`
 
 const SingAttention = styled.span`
   position: absolute;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: #cd3d64;
 `;
 
 const LayoutInput = styled.label`
